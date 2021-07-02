@@ -1,4 +1,6 @@
-@media (max-width: 670px){
+/* mobile */
+@media (max-width: 600px){
+    /* 1 parte */
     header{
         background-image: url(./imagens/mobile01.jpg);
         background-size: 20vw 100%;
@@ -94,5 +96,91 @@
     .imgLogoMobile{
         display: block;
         margin-left: 5vw;
+    }
+}
+
+/* tablet */
+@media (max-width: 801px){
+    /* 1 parte */
+    .divTxtSuperior{
+        max-width: 60vw;
+    }
+    .txtSuperior{
+        font-size: 3vw;
+    }
+    .logoPrincipal{
+        margin-top: 30vw;
+        margin-left: 30vw;
+        margin-bottom: 10vw;
+    }
+    .titulo{
+        font-size: 6vw;
+        padding-left: 15vw;
+    }
+    .contatos{
+        margin-top: 25vw;
+    }
+    .TelSuperior{
+        font-size: 5vw;
+    }
+    .emailSuperior{
+        padding-top: 2vw;
+        font-size: 3vw;
+    }
+
+    /* 2 parte */
+    main{
+        background-image: url(./imagens/tablet1.jpg);
+    }
+    .computadoresIMG{
+        margin-left: 3vw;
+        padding-top: 5vw;
+    }
+     .IMGcomputador{
+         width: 60vw;
+         height: 30vw;
+     }
+     .titulos{
+        padding-top: 5vw;
+         font-size: 5vw;
+     }
+     .paragrafoNossaEmpresa{
+         width: 70%;
+         font-size: 3vw;
+     }
+     .FaleConosco{
+         display: block;
+         font-size: 3vw;
+     }
+     .address2{
+         padding-top: 3vw;
+     }
+     .ServicosEDiferencial{
+         display: block;
+     }
+     .servicos{
+        width: 80%;
+        font-size: 3vw;
+     }
+     .diferencial{
+         font-size: 3vw;
+     }
+     .imgCelulares{
+         width: 30vw;
+         margin-left: 20vw;
+         margin-top: 2vw;
+     }
+     .tituloClientes{
+         font-size: 5vw;
+         text-align: center;
+     }
+     .imgClientes{
+        padding: 3px;
+        width: 15vw;
+        height: 28vw;
+    }
+    .paragrafoClientes{
+        font-size: 2vw;
+        text-align: center;
     }
 }
