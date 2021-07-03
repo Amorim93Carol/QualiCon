@@ -19,7 +19,7 @@ html, body{
 header{
     height: 100%;
     text-align: center;
-    background-image: url(./imagens/Predio1.png);
+    background-image: url(./imagens/Predio1.jpg);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ main{
     padding-left: 8vw;
     color: #1D3387;
     background: white;
-    background-image: url(./imagens/predioazul.png);
+    background-image: url(./imagens/predioazul.jpg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 16vw 120vw;
