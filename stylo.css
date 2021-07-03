@@ -21,6 +21,8 @@ header{
     text-align: center;
     background-image: url(./imagens/Predio1.png);
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 main{
     padding-left: 8vw;
@@ -36,11 +38,11 @@ h1{
 }
 /* 1 parte */
 .divTxtSuperior{
-    padding-top: 3vw;
-    margin-left: 40vw;
-    max-width: 45vw;
+    margin-left: 10.8vw;
     align-items: center;
     display: flex;
+    flex: 1;
+    justify-content: center;
 }
 .txtSuperior{
     font-family: kollektif;
@@ -60,14 +62,22 @@ h1{
     background: orange;
 }
 .logoPrincipal{
-    margin-top: 3vw;
-    margin-left: 8vw;
+    margin-left: 10.8vw;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 .imgLogoPrincipalMobile{
     display: none;
 }
 .contatos{
-    margin-left: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: flex-end;
+    margin-right: 5vw;
+    margin-bottom: 1vw;
 }
 .TelSuperior{
     font-family: kollektif;
@@ -79,10 +89,14 @@ h1{
     font-size: 1.5vw;
 }
 .titulo{
-    margin-left: 13vw;
     font-size: 5vw;
     text-transform: none;
     letter-spacing: 0.6vw;
+    margin: 28px;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    margin-left: 10.8vw;
 }
 
 /* 2 parte */
