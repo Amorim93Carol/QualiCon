@@ -1,5 +1,5 @@
 /* mobile */
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
     /* 1 parte */
     header{
         background-image: url(./imagens/mobile01.jpg);
@@ -100,7 +100,7 @@
 }
 
 /* tablet */
-@media (max-width: 801px){
+@media only screen and (min-width: 801px) and (max-width: 600px){
     /* 1 parte */
     .divTxtSuperior{
         max-width: 60vw;
