@@ -8,6 +8,7 @@
     }
     .divTxtSuperior{
         padding-top: 7vw;
+        margin-left: 19.8vw;
     }
     .txtSuperior{
         font-size: 2.3vw;
@@ -16,20 +17,20 @@
         display: none;
     }
     .imgLogoPrincipalMobile{
-        padding-left: 8vw;
+        height: 28vw;
         display: block;
     }
     .logoPrincipal{
         margin-top: 30vw;
         margin-bottom: 15vw;
-        margin-left: 20vw;
+        margin-left: 19.8vw;
     }
     .titulo{
         font-size: 7vw;
-        padding-left: 8vw;
+        margin: 0 0 0 19.8vw;
     }
     .contatos{
-        margin-top: 50vw;
+        margin-bottom: 3vw;
     }
     .TelSuperior{
         font-size: 5vw;
@@ -100,25 +101,24 @@
 }
 
 /* tablet */
-@media only screen and (min-width: 801px) and (max-width: 600px){
+@media only screen and (max-width: 800px) and (min-width: 600px)  {
     /* 1 parte */
     .divTxtSuperior{
-        max-width: 60vw;
+        margin-left: 28vw;
     }
     .txtSuperior{
         font-size: 3vw;
     }
     .logoPrincipal{
-        margin-top: 30vw;
-        margin-left: 30vw;
-        margin-bottom: 10vw;
+        margin-left: 28vw;
     }
     .titulo{
         font-size: 6vw;
-        padding-left: 15vw;
+        margin: 0 0 0 28vw;
+        align-items: center;
     }
     .contatos{
-        margin-top: 25vw;
+        margin-bottom: 3vw;
     }
     .TelSuperior{
         font-size: 5vw;
@@ -126,6 +126,12 @@
     .emailSuperior{
         padding-top: 2vw;
         font-size: 3vw;
+    }
+
+    .logoFim {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
     }
 
     /* 2 parte */
