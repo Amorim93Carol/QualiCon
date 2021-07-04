@@ -167,42 +167,22 @@ figure{
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    }
-.buttonSlide{
-    height: 15px;
-    margin: 0.5vw;
-    border-radius: 50%;
-    background: rgb(34, 34, 34);
-}
-
-.buttonSlide:hover{
-    background: rgb(63, 63, 63);
 }
 #controle{
     display: flex;
     justify-content: center;
 }
-.circle {
-    border: 2px solid darkslateblue;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gallery .circle{
+    font-size: 80px !important;
+    color: blue;
+    color: rgb(51 33 217 / 40%);
 }
-
-.circle div {
-    background: white;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+.gallery .control-operator:target~.controls .control-button{
+    color: rgba(89, 81, 199, 0.5) !important;
 }
-
-.circle.active div {
-    background: darkslateblue;
+.gallery .control-button:first-of-type, .gallery .control-operator:nth-of-type(1):target~.controls .control-button:nth-of-type(1), .gallery .control-operator:nth-of-type(2):target~.controls .control-button:nth-of-type(2), .gallery .control-operator:nth-of-type(3):target~.controls .control-button:nth-of-type(3), .gallery .control-operator:nth-of-type(4):target~.controls .control-button:nth-of-type(4), .gallery .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5){
+    color: rgba(35, 67, 155, 0.8) !important;
 }
-
 .imgClientes{
     width: 12vw;
     height: 19vw;
