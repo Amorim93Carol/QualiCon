@@ -78,8 +78,14 @@
         width: 30vw;
     }
     .tituloClientes{
-        width: 100vw;
-        font-size: 4vw;
+        width: 90vw;
+        font-size: 3.5vw;
+    }
+    .controle{
+        height: 20vw;
+    }
+    .clientes{
+        width: 120vw;
     }
     .imgLogo{
         display: none;
@@ -90,13 +96,14 @@
     .imgClientes{
         padding: 3px;
         width: 15vw;
-        height: 35vw;
+        height: 30vw;
     }
     .imgLogo{
         display: none;
     }
     .imgLogoMobile{
         display: block;
+        margin-top: 8vw;
         margin-left: 5vw;
     }
 }

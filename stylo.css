@@ -168,14 +168,9 @@ figure{
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
-#controle{
+.controle{
     display: flex;
     justify-content: center;
-}
-.gallery .circle{
-    font-size: 80px !important;
-    color: blue;
-    color: rgb(51 33 217 / 40%);
 }
 .gallery .control-operator:target~.controls .control-button{
     color: rgba(89, 81, 199, 0.5) !important;
@@ -184,6 +179,7 @@ figure{
     color: rgba(35, 67, 155, 0.8) !important;
 }
 .gallery .control-button {
+    font-size: 80px !important;
     color: rgba(89, 81, 199, 0.5) !important;
 }
 .imgClientes{
