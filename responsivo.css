@@ -1,107 +1,139 @@
 /* mobile */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
     /* 1 parte */
-    header{
+    header {
         background-image: url(./imagens/mobile01.jpg);
         background-size: 20vw 100%;
         box-sizing: border-box;
     }
-    .divTxtSuperior{
-        padding-top: 7vw;
+
+    .content-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .divTxtSuperior {
         margin-left: 19.8vw;
     }
-    .txtSuperior{
+
+    .txtSuperior {
         font-size: 2.3vw;
     }
-    .imgLogoPrincipal{
+
+    .imgLogoPrincipal {
         display: none;
     }
-    .imgLogoPrincipalMobile{
+
+    .imgLogoPrincipalMobile {
         height: 28vw;
         display: block;
     }
-    .logoPrincipal{
+
+    .logoPrincipal {
         margin-top: 30vw;
         margin-bottom: 15vw;
         margin-left: 19.8vw;
     }
-    .titulo{
+
+    .titulo {
         font-size: 7vw;
         margin: 0 0 0 19.8vw;
     }
-    .contatos{
+
+    .contatos {
         margin-bottom: 3vw;
     }
-    .TelSuperior{
+
+    .TelSuperior {
         font-size: 5vw;
     }
-    .emailSuperior{
+
+    .emailSuperior {
         font-size: 3vw;
     }
+
     /* parte 2 */
-    main{
+    main {
         background-image: none;
         box-sizing: border-box;
     }
-   .computadoresIMG{
-       margin-left: 10vw;
-       padding-top: 5vw;
-   }
-    .IMGcomputador{
+
+    .computadoresIMG {
+        margin-left: 10vw;
+        padding-top: 5vw;
+    }
+
+    .IMGcomputador {
         width: 60vw;
         height: 30vw;
     }
-    .titulos{
+
+    .titulos {
         margin-top: 10vw;
         font-size: 6vw;
     }
-    .paragrafoNossaEmpresa{
+
+    .paragrafoNossaEmpresa {
         width: 90%;
     }
-    .FaleConosco{
+
+    .FaleConosco {
         width: 90%;
         padding-left: 8vw;
         display: block;
     }
-    .address2{
+
+    .address2 {
         padding-top: 4vw;
     }
-    .ServicosEDiferencial{
+
+    .ServicosEDiferencial {
         display: block;
         width: 100%;
     }
-    .servicos{
+
+    .servicos {
         width: 80%;
     }
-    .imgCelulares{
+
+    .imgCelulares {
         margin-left: 50%;
         width: 30vw;
     }
-    .tituloClientes{
+
+    .tituloClientes {
         width: 90vw;
         font-size: 3.5vw;
     }
-    .controle{
+
+    .controle {
         height: 20vw;
     }
-    .clientes{
+
+    .clientes {
         width: 120vw;
     }
-    .imgLogo{
+
+    .imgLogo {
         display: none;
     }
-    .imgLogoMobile{
+
+    .imgLogoMobile {
         display: block;
     }
-    .imgClientes{
+
+    .imgClientes {
         padding: 3px;
         width: 15vw;
         height: 30vw;
     }
-    .imgLogo{
+
+    .imgLogo {
         display: none;
     }
-    .imgLogoMobile{
+
+    .imgLogoMobile {
         display: block;
         margin-top: 8vw;
         margin-left: 5vw;
@@ -109,29 +141,36 @@
 }
 
 /* tablet */
-@media only screen and (max-width: 800px) and (min-width: 600px)  {
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+
     /* 1 parte */
-    .divTxtSuperior{
+    .divTxtSuperior {
         margin-left: 28vw;
     }
-    .txtSuperior{
+
+    .txtSuperior {
         font-size: 3vw;
     }
-    .logoPrincipal{
+
+    .logoPrincipal {
         margin-left: 28vw;
     }
-    .titulo{
+
+    .titulo {
         font-size: 6vw;
         margin: 0 0 0 28vw;
         align-items: center;
     }
-    .contatos{
+
+    .contatos {
         margin-bottom: 3vw;
     }
-    .TelSuperior{
+
+    .TelSuperior {
         font-size: 5vw;
     }
-    .emailSuperior{
+
+    .emailSuperior {
         padding-top: 2vw;
         font-size: 3vw;
     }
@@ -143,57 +182,70 @@
     }
 
     /* 2 parte */
-    main{
+    main {
         background-image: url(./imagens/tablet1.jpg);
     }
-    .computadoresIMG{
+
+    .computadoresIMG {
         margin-left: 3vw;
         padding-top: 5vw;
     }
-     .IMGcomputador{
-         width: 60vw;
-         height: 30vw;
-     }
-     .titulos{
+
+    .IMGcomputador {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    .titulos {
         padding-top: 5vw;
-         font-size: 5vw;
-     }
-     .paragrafoNossaEmpresa{
-         width: 70%;
-         font-size: 3vw;
-     }
-     .FaleConosco{
-         display: block;
-         font-size: 3vw;
-     }
-     .address2{
-         padding-top: 3vw;
-     }
-     .ServicosEDiferencial{
-         display: block;
-     }
-     .servicos{
+        font-size: 5vw;
+    }
+
+    .paragrafoNossaEmpresa {
+        width: 70%;
+        font-size: 3vw;
+    }
+
+    .FaleConosco {
+        display: block;
+        font-size: 3vw;
+    }
+
+    .address2 {
+        padding-top: 3vw;
+    }
+
+    .ServicosEDiferencial {
+        display: block;
+    }
+
+    .servicos {
         width: 80%;
         font-size: 3vw;
-     }
-     .diferencial{
-         font-size: 3vw;
-     }
-     .imgCelulares{
-         width: 30vw;
-         margin-left: 20vw;
-         margin-top: 2vw;
-     }
-     .tituloClientes{
-         font-size: 5vw;
-         text-align: center;
-     }
-     .imgClientes{
+    }
+
+    .diferencial {
+        font-size: 3vw;
+    }
+
+    .imgCelulares {
+        width: 30vw;
+        margin-left: 20vw;
+        margin-top: 2vw;
+    }
+
+    .tituloClientes {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .imgClientes {
         padding: 3px;
         width: 15vw;
         height: 28vw;
     }
-    .paragrafoClientes{
+
+    .paragrafoClientes {
         font-size: 2vw;
         text-align: center;
     }

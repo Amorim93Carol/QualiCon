@@ -1,22 +1,27 @@
-@font-face{
+@font-face {
     font-family: kollektif;
     src: url(./fontes/kollektif.ttf);
 }
+
 @font-face {
     font-family: lato;
     src: url(./fontes/lato-bold-2.ttf);
 }
-body{
+
+body {
     font-family: lato;
     margin: 0px;
     padding: 0px;
     background: #1D3387;
     color: rgb(221, 220, 220);
 }
-html, body{
+
+html,
+body {
     height: 100%;
 }
-header{
+
+header {
     height: 100%;
     text-align: center;
     background-image: url(./imagens/Predio1.jpg);
@@ -24,7 +29,8 @@ header{
     display: flex;
     flex-direction: column;
 }
-main{
+
+main {
     padding-left: 8vw;
     color: #1D3387;
     background: white;
@@ -33,44 +39,57 @@ main{
     background-position-x: right;
     background-size: 16vw 120vw;
 }
-h1{
+
+h1 {
     text-transform: uppercase;
 }
+
 /* 1 parte */
-.divTxtSuperior{
+.containerHeader {
+    display: flex;
+}
+
+.divTxtSuperior {
     margin-left: 10.8vw;
     align-items: center;
     display: flex;
     flex: 1;
     justify-content: center;
 }
-.txtSuperior{
+
+.txtSuperior {
     font-family: kollektif;
     font-size: 1.5vw;
     letter-spacing: 0.5vw;
 }
-.detalhe{
+
+.detalhe {
     margin-left: 1vw;
     width: 4vw;
     height: 0.8vw;
     background: orange;
 }
-.detalhe2{
+
+.detalhe2 {
     margin-left: 32vw;
     width: 3vw;
     height: 0.6vw;
     background: orange;
 }
-.logoPrincipal{
+
+.logoPrincipal {
     margin-left: 10.8vw;
+    margin-top: 5vw;
     display: flex;
     flex: 1;
     justify-content: center;
 }
-.imgLogoPrincipalMobile{
+
+.imgLogoPrincipalMobile {
     display: none;
 }
-.contatos{
+
+.contatos {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -79,16 +98,19 @@ h1{
     margin-right: 5vw;
     margin-bottom: 1vw;
 }
-.TelSuperior{
+
+.TelSuperior {
     font-family: kollektif;
     padding-left: 10vw;
     font-size: 2vw;
 }
-.emailSuperior{
+
+.emailSuperior {
     margin-top: 1vw;
     font-size: 1.5vw;
 }
-.titulo{
+
+.titulo {
     font-size: 5vw;
     text-transform: none;
     letter-spacing: 0.6vw;
@@ -98,6 +120,7 @@ h1{
     justify-content: center;
     margin-left: 10.8vw;
 }
+
 .content-btn {
     margin: 20px;
     display: flex;
@@ -114,53 +137,69 @@ h1{
 }
 
 /* 2 parte */
-.computadoresIMG{
+.computadoresIMG {
     margin-left: 20vw;
     margin-bottom: 3vw;
     padding-top: 3vw;
 }
-.titulos{
+
+.titulos {
     font-size: 2vw;
     letter-spacing: 0.4vw;
 }
-.paragrafoNossaEmpresa{
+
+.paragrafoNossaEmpresa {
     width: 50vw;
     margin-bottom: 3vw;
 }
-.FaleConosco{
+
+.FaleConosco {
     width: 53vw;
     margin-bottom: 3vw;
     display: flex;
     justify-content: space-between;
 }
-.ServicosEDiferencial{
+
+.fab,
+.fas {
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.ServicosEDiferencial {
     display: flex;
     width: 55vw;
     justify-content: space-between;
 }
-.servicos{
+
+.servicos {
     width: 20vw;
 }
-.imgCelulares{
+
+.imgCelulares {
     margin-left: 5vw;
     width: 15vw;
 }
-.tituloClientes{
+
+.tituloClientes {
     margin-top: 5vw;
     font-family: kollektif;
     color: #EE9B57;
     font-size: 2.5vw;
     letter-spacing: 1.2vw;
 }
+
 .galeria {
     margin-right: 20vw;
 }
-.clientes{
+
+.clientes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3vw;
 }
-figure{
+
+figure {
     background: transparent !important;
     display: block;
     margin-block-start: 0;
@@ -168,39 +207,53 @@ figure{
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
-.controle{
+
+.controle {
     display: flex;
     justify-content: center;
 }
-.gallery .control-operator:target~.controls .control-button{
+
+.gallery .control-operator:target~.controls .control-button {
     color: rgba(89, 81, 199, 0.5) !important;
 }
-.gallery .control-button:first-of-type, .gallery .control-operator:nth-of-type(1):target~.controls .control-button:nth-of-type(1), .gallery .control-operator:nth-of-type(2):target~.controls .control-button:nth-of-type(2), .gallery .control-operator:nth-of-type(3):target~.controls .control-button:nth-of-type(3), .gallery .control-operator:nth-of-type(4):target~.controls .control-button:nth-of-type(4), .gallery .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5){
+
+.gallery .control-button:first-of-type,
+.gallery .control-operator:nth-of-type(1):target~.controls .control-button:nth-of-type(1),
+.gallery .control-operator:nth-of-type(2):target~.controls .control-button:nth-of-type(2),
+.gallery .control-operator:nth-of-type(3):target~.controls .control-button:nth-of-type(3),
+.gallery .control-operator:nth-of-type(4):target~.controls .control-button:nth-of-type(4),
+.gallery .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5) {
     color: rgba(35, 67, 155, 0.8) !important;
 }
+
 .gallery .control-button {
     font-size: 80px !important;
     color: rgba(89, 81, 199, 0.5) !important;
 }
-.imgClientes{
+
+.imgClientes {
     width: 12vw;
     height: 19vw;
 }
-.paragrafoClientes{
+
+.paragrafoClientes {
     font-family: kollektif;
     width: 11vw;
     font-size: 1.3vw;
     text-align: center;
 }
-.logoFim{
+
+.logoFim {
     margin-left: 25vw;
     margin-top: 3vw;
     padding-bottom: 2vw;
 }
-.imgLogo{
+
+.imgLogo {
     width: 18vw;
     height: 10vw;
 }
-.imgLogoMobile{
+
+.imgLogoMobile {
     display: none;
 }
