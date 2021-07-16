@@ -154,10 +154,12 @@ h1 {
 }
 
 .FaleConosco {
-    width: 53vw;
-    margin-bottom: 3vw;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+.FaleConosco div {
+    flex: 1;
 }
 
 .fab,
@@ -168,12 +170,24 @@ h1 {
 
 .ServicosEDiferencial {
     display: flex;
-    width: 55vw;
+    width: 71vw;
     justify-content: space-between;
 }
 
 .servicos {
-    width: 20vw;
+    flex: 2;
+}
+
+.servicos ul {
+    padding: 10px;
+}
+
+.fale {
+    flex: 2;
+}
+
+.diferencial {
+    flex: 1;
 }
 
 .imgCelulares {
@@ -256,4 +270,9 @@ figure {
 
 .imgLogoMobile {
     display: none;
+}
+
+.address2 a {
+    color: #1D3387;
+    text-decoration: none;
 }
